@@ -18,6 +18,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
     <Canvas
+      className="r3f"
       shadows
       camera={{
         fov: 45,
